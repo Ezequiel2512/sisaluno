@@ -1,0 +1,40 @@
+form{
+    width: 400px;
+    background-color: rgb(107, 236, 172, 0.75);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    padding: 5px;
+}
+input:not(:last-child){
+    margin-bottom: 10px;
+}
+a{
+    background-color: rgb(218, 218, 218);
+    padding: 7px;
+    width: 95%;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Educacao-em-Portugal-300x147.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    gap: 7px;
+}
+header{
+    background-image: url(download.png) ;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
